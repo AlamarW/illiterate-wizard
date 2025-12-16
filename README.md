@@ -1,4 +1,4 @@
-# Illiterate Wizard 🧙‍♂️
+# Illiterate Wizard
 
 **Generate programming languages with a click!**
 
@@ -6,15 +6,15 @@ A web-based visual programming language builder that lets you design, customize,
 
 ## Features
 
-- 🎨 **Visual Grammar Designer** - Design language grammar using a node-based interface
-- ⚙️ **Syntax Rule Editor** - Define keywords, operators, and syntax patterns
-- 🧠 **Semantics Configuration** - Specify semantic actions for language constructs
-- 📚 **Built-in Functions** - Create custom built-in function libraries
-- 🔄 **Interpreter/Compiler Generation** - Choose between interpreted or compiled execution
-- 📖 **Auto-Documentation** - Automatically generates complete language documentation
-- 💡 **Example Generation** - Auto-generates Hello World and Fibonacci examples
-- 📦 **Export & Download** - Download your complete language as a zip file
-- 🐳 **Docker Support** - Run locally with Docker
+- **Visual Grammar Designer** - Design language grammar using a node-based interface
+- **Syntax Rule Editor** - Define keywords, operators, and syntax patterns
+- **Semantics Configuration** - Specify semantic actions for language constructs
+- **Built-in Functions** - Create custom built-in function libraries
+- **Interpreter/Compiler Generation** - Choose between interpreted or compiled execution
+- **Auto-Documentation** - Automatically generates complete language documentation
+- **Example Generation** - Auto-generates Hello World and Fibonacci examples
+- **Export & Download** - Download your complete language as a zip file
+- **Docker Support** - Run locally with Docker
 
 ## Quick Start
 
@@ -117,13 +117,13 @@ Create standard library functions:
 ### 6. Generate Your Language
 
 Click "Generate Language" to create:
-- ✅ Lexer/Tokenizer
-- ✅ Parser
-- ✅ AST (Abstract Syntax Tree) definitions
-- ✅ Interpreter or Compiler
-- ✅ Complete documentation
-- ✅ Example programs (Hello World, Fibonacci)
-- ✅ Language specification file
+- Lexer/Tokenizer
+- Parser
+- AST (Abstract Syntax Tree) definitions
+- Interpreter or Compiler
+- Complete documentation
+- Example programs (Hello World, Fibonacci)
+- Language specification file
 
 ### 7. Download and Use
 
@@ -273,7 +273,7 @@ MIT License - see LICENSE file for details
 
 ## Roadmap
 
-- [x] Support for Java compilation target (✅ **Completed!**)
+- [x] Support for Java compilation target (**Completed**)
 - [ ] **MCP (Model Context Protocol) Support** - Allow users with LLMs to design complete programming languages through natural conversation
   - MCP server for language specification
   - Conversational language design workflow
@@ -288,17 +288,3 @@ MIT License - see LICENSE file for details
 - [ ] Performance optimization tools
 - [ ] Support for C compilation target
 - [ ] Language versioning and migration tools
-
-## Support
-
-For issues, questions, or suggestions:
-- Open an issue on GitHub
-- Check the documentation in `/docs`
-
-## Acknowledgments
-
-Built with modern web technologies and a passion for programming language design!
-
----
-
-**Made with ❤️ by the Illiterate Wizard team**
