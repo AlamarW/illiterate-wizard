@@ -33,6 +33,7 @@ def java_spec():
             Keyword(word="while", category="control_flow", description="Loop"),
         ],
         operators=[
+            Operator(symbol="=", precedence=1, associativity="right", operation_type="assignment", implementation="a = b"),
             Operator(symbol="+", precedence=10, associativity="left", operation_type="arithmetic", implementation="a + b"),
             Operator(symbol="-", precedence=10, associativity="left", operation_type="arithmetic", implementation="a - b"),
             Operator(symbol="*", precedence=20, associativity="left", operation_type="arithmetic", implementation="a * b"),
