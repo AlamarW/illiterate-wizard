@@ -280,13 +280,13 @@ MIT License - see LICENSE file for details
   - AI-assisted grammar rule generation
   - Automatic syntax validation and suggestions
   - Example code generation from descriptions
-- [ ] Support for C compilation target
 - [ ] Advanced type system configuration
 - [ ] Standard library templates
 - [ ] Language import/export marketplace
 - [ ] Interactive language testing playground
 - [ ] Code completion and syntax highlighting for generated languages
 - [ ] Performance optimization tools
+- [ ] Support for C compilation target
 - [ ] Language versioning and migration tools
 
 ## Support
