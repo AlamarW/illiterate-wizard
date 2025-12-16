@@ -404,8 +404,7 @@ class Parser:
         current = self._current()
 
         # Try to match against defined syntax rules
-        {statement_parsers}
-
+{statement_parsers}
         # Default: try expression statement
         expr = self._parse_expression()
         if self._match(TokenType.SEMICOLON):
@@ -548,9 +547,12 @@ class Parser:
                 # Generate parser stub for this rule
                 statement_parsers.append(f"        # TODO: Parse {rule.rule_type}: {rule.pattern}")
 
+        # Join parsers or leave empty (no pass needed, there's already default code)
+        parser_code = "\n".join(statement_parsers) if statement_parsers else ""
+
         return code.format(
             name=self.spec.name,
-            statement_parsers="\n".join(statement_parsers) if statement_parsers else "        pass"
+            statement_parsers=parser_code
         )
 
     def _generate_ast_nodes(self) -> str:

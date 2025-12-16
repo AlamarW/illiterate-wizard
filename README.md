@@ -273,13 +273,20 @@ MIT License - see LICENSE file for details
 
 ## Roadmap
 
-- [ ] Support for more target languages (C, Java, etc.)
+- [x] Support for Java compilation target (✅ **Completed!**)
+- [ ] **MCP (Model Context Protocol) Support** - Allow users with LLMs to design complete programming languages through natural conversation
+  - MCP server for language specification
+  - Conversational language design workflow
+  - AI-assisted grammar rule generation
+  - Automatic syntax validation and suggestions
+  - Example code generation from descriptions
 - [ ] Advanced type system configuration
 - [ ] Standard library templates
 - [ ] Language import/export marketplace
 - [ ] Interactive language testing playground
 - [ ] Code completion and syntax highlighting for generated languages
 - [ ] Performance optimization tools
+- [ ] Support for C compilation target
 - [ ] Language versioning and migration tools
 
 ## Support

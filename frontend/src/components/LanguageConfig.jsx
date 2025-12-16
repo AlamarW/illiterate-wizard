@@ -107,7 +107,8 @@ function LanguageConfig({ spec, onChange }) {
             >
               <option value="python">Python</option>
               <option value="javascript">JavaScript</option>
-              <option value="c">C</option>
+              <option value="java">Java</option>
+              <option value="c">C (Coming Soon)</option>
             </select>
           </div>
         )}
